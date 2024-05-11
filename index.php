@@ -53,7 +53,7 @@ else if($text == "2*2") {
 else if($text == "2*2*1") { 
     // This is a second level response where the user selected 1 in the first instance
     $response = " CON Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
-    $response .= "-Ibirayi,igitoki\n";
+    $response .= "-Ibirayi\n";
     $response .= "-Igitoki\n";
     $response .= "-Ibihaza\n";
     $response .= "-Amakaroni y'abana\n";
