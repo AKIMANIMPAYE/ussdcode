@@ -6,6 +6,7 @@ $phoneNumber = $_POST["phoneNumber"];
 $text        = $_POST["text"];
 
 if ($text == "") {
+    //jhdhdjxjjhfc
     // This is the first request. Note how we start the response with CON
     $response  = "CON What would you want to check \n";
     $response .= "1. My Electricity meter \n";
