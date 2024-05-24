@@ -55,21 +55,57 @@ if ($text == "") {
     $response .= "- Umuceri\n";
     $response .= "- Ibikoro\n";
 } else if ($text == "2*2*2") {
-    // This is a third level response
-    $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo)\n\n";
-    $response .= "- Amasaka\n";
-    $response .= "- Ingano\n";
-    $response .= "- Amagi\n";
-    $response .= "- Amafi\n";
-    $response .= "- Inyama\n";
-    $response .= "- Ibishyimbo\n";
-    $response .= "- Indagara\n";
-    $response .= "- Amata\n";
-    $response .= "- Uburo\n";
-    $response .= "- Uvuta y'inka\n";
-    $response .= "- Amashaza\n";
-    $response .= "- Soya\n";
-    $response .= "- Ubunyobwa\n";
+    // This is a third level response with pagination
+    $parts = explode('*', $text);
+    $page = isset($parts[3]) ? $parts[3] : '1';
+
+    if ($page == '1') {
+        $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo) - Page 1\n\n";
+        $response .= "1) Amasaka\n";
+        $response .= "2) Ingano\n";
+        $response .= "3) Amagi\n";
+        $response .= "4) Amafi\n";
+        $response .= "5) Inyama\n";
+        $response .= "6) Ibishyimbo\n";
+        $response .= "7) Indagara\n";
+        $response .= "8) More\n";
+    } else if ($page == '2') {
+        $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo) - Page 2\n\n";
+        $response .= "1) Amata\n";
+        $response .= "2) Uburo\n";
+        $response .= "3) Uvuta y'inka\n";
+        $response .= "4) Amashaza\n";
+        $response .= "5) Soya\n";
+        $response .= "6) Ubunyobwa\n";
+        $response .= "7) Previous\n";
+    }
+} else if ($text == "2*2*2*1") {
+    // Process input from the first page of 2*2*2 options
+    // Add further logic based on user selection on the first page
+} else if ($text == "2*2*2*2") {
+    // Process input from the second page of 2*2*2 options
+    // Add further logic based on user selection on the second page
+} else if ($text == "2*2*2*8") {
+    // Navigate to the next page (page 2) for "2*2*2"
+    $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo) - Page 2\n\n";
+    $response .= "1) Amata\n";
+    $response .= "2) Uburo\n";
+    $response .= "3) Uvuta y'inka\n";
+    $response .= "4) Amashaza\n";
+    $response .= "5) Soya\n";
+    $response .= "6) Ubunyobwa\n";
+    $response .= "7) Previous\n";
+} else if ($text == "2*2*2*2*7") {
+    // Navigate to the previous page (page 1) for "2*2*2"
+    $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo) - Page 1\n\n";
+    $response .= "1) Amasaka\n";
+    $response .= "2) Ingano\n";
+    $response .= "3) Amagi\n";
+    $response .= "4) Amafi\n";
+    $response .= "5) Inyama\n";
+    $response .= "6) Ibishyimbo\n";
+    $response .= "7) Indagara\n";
+    $response .= "8) More\n";
 } else if ($text == "2*2*3") {
     // This is a third level response
     $response = "CON Ibirinda indwara (imboga n'imbuto)\n\n";
