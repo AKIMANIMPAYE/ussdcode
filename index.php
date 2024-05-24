@@ -142,6 +142,7 @@ else if ($text == "2*3*2*99") {
     $response .= "Igitunguru\n"; 
     $response .= "Indagara(ziseye)\n";
     $response .= "Amavuta\n";
+    $response .= "99)Komeza\n";
 }
 else if ($text == "2*3*2*99") {
 
