@@ -13,6 +13,7 @@ if ($text == "") {
     $response .= "3) Amezi 9 kugeza ku mwaka \n";
     $response .= "4) Umwaka kugeza ku myaka 2 \n";
     $response .= "5) Imyaka 2 kugeza ku myaka 5 \n";
+
 } else if ($text == "1") {
     // Business logic for first level response
     $response = "END Mu mezi atandatu ya mbere, onsa gusa\n Ntukagire ikindi uha umwana wawe mu mezi 6 ya mbere, kabone n’amazi. \n Amazi, ibindi binyobwa cyangwa ibindi biribwa bishobora gutera umwana wawe uburwayi.";
@@ -37,70 +38,67 @@ if ($text == "") {
     $response .= "2) Ibyubaka umubiri \n";
     $response .= "3) Ibirinda indwara\n";
 } else if ($text == "2*2*1") {
-    // Divide response into two parts and add next option
-    if ($text == "2*2*1") {
-        $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
-        $response .= "-Ibirayi\n";
-        $response .= "-Igitoki\n";
-        $response .= "-Ibihaza\n";
-        $response .= "-Amakaroni y'abana\n";
-        $response .= "99) Next\n"; // Adding a next option for continuation
-    } else if ($text == "99") {
-        $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu) Part 2\n\n";
-        $response .= "-Ibijumba\n";
-        $response .= "-Kawunga\n";
-        $response .= "-Imyumbati\n";
-        $response .= "-Amateke\n";
-        $response .= "-Ibigori\n";
-        $response .= "-Umuceri\n";
-        $response .= "-Ibikoro\n";
-    }
+    // First part of response for 2*2*1
+    $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
+    $response .= "-Ibirayi\n";
+    $response .= "-Igitoki\n";
+    $response .= "-Ibihaza\n";
+    $response .= "-Amakaroni y'abana\n";
+    $response .= "-Ibijumba\n";
+    $response .= "99) Next\n"; // Adding a next option for continuation
+} else if ($text == "2*2*1*99") {
+    // Second part of response for 2*2*1
+    $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu) Part 2\n\n";
+    $response .= "-Kawunga\n";
+    $response .= "-Imyumbati\n";
+    $response .= "-Amateke\n";
+    $response .= "-Ibigori\n";
+    $response .= "-Umuceri\n";
+    $response .= "-Ibikoro\n";
 } else if ($text == "2*2*2") {
-    // Divide response into two parts and add next option
-    if ($text == "2*2*2") {
-        $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo)\n\n";
-        $response .= "-Amasaka\n";
-        $response .= "-Ingano\n";
-        $response .= "-Amagi\n";
-        $response .= "99) Next\n"; // Adding a next option for continuation
-    } else if ($text == "99") {
-        $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo) Part 2\n\n";
-        $response .= "-Amafi\n";
-        $response .= "-Inyama\n";
-        $response .= "-Ibishyimbo\n";
-        $response .= "-Indagara\n";
-        $response .= "-Amata\n";
-        $response .= "-Uburo\n";
-        $response .= "-Uvuta y'inka\n";
-        $response .= "-Amashaza\n";
-        $response .= "-Soya\n";
-        $response .= "-Ubunyobwa\n";
-    }
+    // First part of response for 2*2*2
+    $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo)\n\n";
+    $response .= "-Amasaka\n";
+    $response .= "-Ingano\n";
+    $response .= "-Amagi\n";
+    $response .= "-Amafi\n";
+    $response .= "99) Next\n"; // Adding a next option for continuation
+} else if ($text == "2*2*2*99") {
+    // Second part of response for 2*2*2
+    $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo) Part 2\n\n";
+    $response .= "-Inyama\n";
+    $response .= "-Ibishyimbo\n";
+    $response .= "-Indagara\n";
+    $response .= "-Amata\n";
+    $response .= "-Uburo\n";
+    $response .= "-Uvuta y'inka\n";
+    $response .= "-Amashaza\n";
+    $response .= "-Soya\n";
+    $response .= "-Ubunyobwa\n";
 } else if ($text == "2*2*3") {
-    // Divide response into two parts and add next option
-    if ($text == "2*2*3") {
-        $response = "CON Ibirinda indwara(imboga n'imbuto)\n";
-        $response .= "-Epinari\n";
-        $response .= "-Imbogeri\n";
-        $response .= "-Dodo\n";
-        $response .= "-Isogo\n";
-        $response .= "99) Next\n"; // Adding a next option for continuation
-    } else if ($text == "99") {
-        $response = "CON Ibirinda indwara(imboga n'imbuto) Part 2\n\n";
-        $response .= "-Umushogoro\n";
-        $response .= "-Isombe\n";
-        $response .= "-Amashu\n";
-        $response .= "-Ibishayote\n";
-        $response .= "-Karote\n";
-        $response .= "-Imiteja\n";
-        $response .= "-Ibisusa\n";
-        $response .= "-Avoka\n";
-        $response .= "-Imineke\n";
-        $response .= "-Ipapayi\n";
-        $response .= "-Watermelon\n";
-        $response .= "-Pome\n";
-        $response .= "-Ibinyomoro\n";
-    }
+    // First part of response for 2*2*3
+    $response = "CON Ibirinda indwara(imboga n'imbuto)\n";
+    $response .= "-Epinari\n";
+    $response .= "-Imbogeri\n";
+    $response .= "-Dodo\n";
+    $response .= "-Isogo\n";
+    $response .= "-Umushogoro\n";
+    $response .= "99) Next\n"; // Adding a next option for continuation
+} else if ($text == "2*2*3*99") {
+    // Second part of response for 2*2*3
+    $response = "CON Ibirinda indwara(imboga n'imbuto) Part 2\n\n";
+    $response .= "-Isombe\n";
+    $response .= "-Amashu\n";
+    $response .= "-Ibishayote\n";
+    $response .= "-Karote\n";
+    $response .= "-Imiteja\n";
+    $response .= "-Ibisusa\n";
+    $response .= "-Avoka\n";
+    $response .= "-Imineke\n";
+    $response .= "-Ipapayi\n";
+    $response .= "-Watermelon\n";
+    $response .= "-Pome\n";
+    $response .= "-Ibinyomoro\n";
 }
 
 // Echo the response back to the API
