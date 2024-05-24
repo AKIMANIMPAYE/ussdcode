@@ -117,6 +117,7 @@ else if ($text == "2*3*1") {
     $response .= " Fata ikirayi kimwe,igihate ugiteke\n";
     $response .= " nikimara gusha  \n";
     $response .= " nomba neza ikirayi ugaburire umwana\n";
+    $response .= " ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
 
 }
 
