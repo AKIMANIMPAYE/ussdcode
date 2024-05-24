@@ -45,7 +45,7 @@ if ($text == "") {
     $response .= "-Ibihaza\n";
     $response .= "-Amakaroni y'abana\n";
     $response .= "-Ibijumba\n";
-    $response .= "99) Next\n"; // Adding a next option for continuation
+    $response .= "99) Komeza\n"; // Adding a next option for continuation
 } else if ($text == "2*2*1*99") {
     // Second part of response for 2*2*1
     $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu) Part 2\n\n";
@@ -88,7 +88,7 @@ if ($text == "") {
     $response .= "-Watermelon\n";
     $response .= "-Pome\n";
     $response .= "-Ibinyomoro\n";
-    $response .= "99) Next\n"; // Adding a next option for continuation
+    $response .= "99) Komeza\n"; // Adding a next option for continuation
 } else if ($text == "2*2*3*99") {
     // Second part of response for 2*2*3
     $response = "CON Ibirinda indwara(imboga n'imbuto) Part 2\n\n";
@@ -126,17 +126,17 @@ else if ($text == "2*3*2*99") {
     $response .= " Umwana ugitangira kurya mutekere\n";
     $response .= "Igitoki kimwe nikimara gushya neza ukinombe\n";
     $response .= "umwana agomba kubirya binoze \n neza kuko nibwo atangiye kurya \n";
-    $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
-    $response .= "99) komeza\n";
+    $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n\n";
+    $response .= "99)Komeza\n";
 }
 else if ($text == "2*3*2*99") {
 
-    $response = "CON \n\n";
-    $response .= " Umwana ugitangira kurya mutekere\n";
-    $response .= "Igitoki kimwe nikimara gushya neza ukinombe\n";
-    $response .= "umwana agomba kubirya binoze \n neza kuko nibwo atangiye kurya \n";
-    $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
-
+    $response = "CON Ifunguro rya 3:  Ikijumba Kinobye\n\n";
+    $response .= " Tekera umwana ikijumba kimwe\n";
+    $response .= "Nikimara gushya neza \n";
+    $response .= "urakinomba ukoresheje ikiyiko kinoge neza\n neza kuko nibwo atangiye kurya \n";
+    $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
+    
 }
 
 
