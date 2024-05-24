@@ -81,6 +81,32 @@ else if($text == "2*2*2") {
     $response .= " -Ubunyobwa\n";    
 }
 
+else if($text == "2*2*3") { 
+    // This is a second level response where the user selected 1 in the first instance
+    $response = " CON Ibirinda indwara(imboga n'imbuto)\n\n";
+    $response .= "-Epinari\n";
+    $response.=  "-Imbogeri\n";
+    $response .= "-Dodo\n";
+    $response .= "-Isogo\n";
+    $response .= "-Umushogoro\n";
+    $response .= "-Isombe\n";
+    $response .= "-Amashu\n";
+    $response .= "-Ibishayote\n"; 
+    $response .= "-Karote\n";
+    $response .= "-Imiteja"; 
+    $response .= "-Ibisusa\n";  
+    $response .= "-Avoka\n"; 
+    $response .= "-Imineke\n";
+    $response .= "-Ipapayi\n";
+    $response .= "-watermelon\n";
+    $response .= "-Pome\n";
+    $response .= "-Ibinyomoro\n";
+    $response .= "-Cocombre\n";
+    $response .= "-Inyanya\n";
+    $response .= "-intoryi\n";
+    $response .= "-corojeti\n";
+    $response .= "-shufureri\n";
+}
 
 // Echo the response back to the API
 header('Content-type: text/plain');
