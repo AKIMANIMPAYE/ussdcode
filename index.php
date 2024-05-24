@@ -55,7 +55,7 @@ if ($text == "") {
     $response .= "- Umuceri\n";
     $response .= "- Ibikoro\n";
 } else if ($text == "2*2*2") {
-    // This is a third level response with pagination
+    // This is a third level response with pagination (Page 1)
     $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo) - Page 1\n\n";
     $response .= "1) Amasaka\n";
     $response .= "2) Ingano\n";
@@ -66,7 +66,7 @@ if ($text == "") {
     $response .= "7) Indagara\n";
     $response .= "98) Next\n";
 } else if ($text == "2*2*2*98") {
-    // This is a third level response for the "next" option
+    // This is a third level response for the "next" option (Page 2)
     $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo) - Page 2\n\n";
     $response .= "8) Amata\n";
     $response .= "9) Uburo\n";
@@ -76,7 +76,7 @@ if ($text == "") {
     $response .= "13) Ubunyobwa\n";
     $response .= "99) Previous\n";
 } else if ($text == "2*2*2*99") {
-    // This is a third level response for the "previous" option
+    // This is a third level response for the "previous" option (Page 1)
     $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo) - Page 1\n\n";
     $response .= "1) Amasaka\n";
     $response .= "2) Ingano\n";
@@ -85,49 +85,9 @@ if ($text == "") {
     $response .= "5) Inyama\n";
     $response .= "6) Ibishyimbo\n";
     $response .= "7) Indagara\n";
-    $response .= "98) Next\n";
-} else if ($text == "2*2*3") {
-    // This is a third level response
-    $response = "CON Ibirinda indwara (imboga n'imbuto)\n\n";
-    $response .= "- Epinari\n";
-    $response .= "- Imbogeri\n";
-    $response .= "- Dodo\n";
-    $response .= "- Isogo\n";
-    $response .= "- Umushogoro\n";
-    $response .= "- Isombe\n";
-$response .= "- Amashu\n";
-$response .= "- Ibishayote\n";
-$response .= "- Karote\n";
-$response .= "- Imiteja\n";
-$response .= "- Ibisusa\n";
-$response .= "- Avoka\n";
-$response .= "- Imineke\n";
-$response .= "- Ipapayi\n";
-$response .= "- Watermelon\n";
-$response .= "- Pome\n";
-$response .= "- Ibinyomoro\n";
-} else if ($text == "99") {
-    // Handle "Previous" option to navigate back to the main menu
-    $response = "CON Turwanye imirire mibi mubana\n\n";
-    $response .= "1) Amezi 6 yambere\n";
-    $response .= "2) Amezi 6 kugeza kumezi 9\n";
-    $response .= "3) Amezi 9 kugeza ku mwaka\n";
-    $response .= "4) Umwaka kugeza ku myaka 2\n";
-    $response .= "5) Imyaka 2 kugeza ku myaka 5\n";
-} else if ($text == "98") {
-    // Handle "Next" option to navigate to the next page
-    $response = "CON Ibyubaka umubiri (Ibinyameke n'ibikomoka ku matungo) - Page 2\n\n";
-    $response .= "8) Amata\n";
-    $response .= "9) Uburo\n";
-    $response .= "10) Uvuta y'inka\n";
-    $response .= "11) Amashaza\n";
-    $response .= "12) Soya\n";
-    $response .= "13) Ubunyobwa\n";
-    $response .= "99) Previous\n";
 }
 
 // Echo the response back to the API
 header('Content-type: text/plain');
 echo $response;
 ?>
-
