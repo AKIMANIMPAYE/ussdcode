@@ -100,17 +100,13 @@ if ($text == "") {
     $response .= "-Ibisusa\n";
     $response .= "-Avoka\n";
     $response .= "-Imineke\n";
-    
 }
-
 else if ($text == "2*3") {
-
     $response = "CON Tegura indyo yuzuye \n\n";
     $response .= "1)Mugitondo\n";
     $response .= "2) saa sita \n";
     $response .= "3) Igicamunsi \n";
     $response .= "4) Nimugoroba\n";
-
 }
 else if ($text == "2*3*2") {
      $response = "CON Ifunguro rya 1: Ikirayi kimwe\n\n";
@@ -135,10 +131,18 @@ else if ($text == "2*3*2*99") {
     $response .= " Tekera umwana ikijumba kimwe\n";
     $response .= "Nikimara gushya neza \n";
     $response .= "urakinomba ukoresheje ikiyiko kinoge neza\n neza kuko nibwo atangiye kurya \n";
-    $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
-    
+    $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n"; 
 }
+else if ($text == "2*3*2*99") {
 
+    $response = "CON Ifunguro rya 4:  Imvange yibirayi n'imboga\n\n";
+    $response .= "ikirayi\n";
+    $response .= "Karote\n";
+    $response .= "Inyanya\n";
+    $response .= "Igitunguru\n"; 
+    $response .= "Indagara(ziseye)\n";
+    $response .= "Amavuta\n";
+}
 
 // Echo the response back to the API
 header('Content-type: text/plain');
