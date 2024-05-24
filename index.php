@@ -58,21 +58,21 @@ else if($text == "2*2*1") {
     $response .= "-Ibijumba\n";
     $response .= "-Kawunga\n";
     $response .= "-Imyumbati\n";
-    $response .= "-Amakateke\n";
+    $response .= "-Amateke\n";
     $response .= "-Ibigori\n";
     $response .= "-Umuceri\n";
-    $response .= "-Ibigori\n"; 
+    $response .= "-Ibikoro\n"; 
 }
 else if($text == "2*2*2") { 
     // This is a second level response where the user selected 1 in the first instance
     $response = " CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo)\n\n";
-    $response .= "- Igikoma(amasaka,ibigori)\n";
-    $response.="- Igikoma(uburo,ingano)\n";
+    $response .= "-Amasaka";
+    $response.=  " -Ingano";
     $response .= " -Amagi\n";
     $response .= " -Amafi\n";
     $response .= " -Inyama\n";
-    $response .=  " -Ibishyimbo";
-    $response .= " -Indagara(ziseye)\n";
+    $response .=  "-Ibishyimbo";
+    $response .= " -Indagara\n";
     $response .= " -Ubunyobwa\n";
     
 
