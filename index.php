@@ -8,10 +8,10 @@ $text        = $_POST["text"];
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
     $response  = "CON Turwanye imirire mubana bari munsi yimyaka itanu \n \n";
-    $response .= "1) Amezi 6 ya mbere \n";
-    $response .= "2) Amezi 6 kugeza kumezi 9 \n";
-    $response .= "3) Amezi 9 kugeza ku mezi 12\n";
-    $response .= "4) Umwaka(1)  kugeza ku myaka 2 \n";
+    $response .= "1) Amezi 6 yambere\n";
+    $response .= "2) Amezi 6 kugeza kumezi 9\n";
+    $response .= "3) Amezi 9 kugeza ku mwaka \n";
+    $response .= "4) Umwaka kugeza ku myaka 2 \n";
     $response .= "5) Imyaka 2 kugeza ku myaka 5 \n";
 
 } else if ($text == "1") {
