@@ -129,6 +129,16 @@ else if ($text == "2*3*2") {
     $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
 
 }
+else if ($text == "2*3*3") {
+
+    $response = "END Igitoki kinombe\n\n";
+    $response .= " Umwana ugitangira kurya mutekere\n";
+    $response .= "Igitoki kimwe nikimara gushya neza ukinombe\n";
+    $response .= "umwana agomba kubirya binoze \n neza kuko nibwo atangiye kurya \n";
+    $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
+
+}
+
 
 // Echo the response back to the API
 header('Content-type: text/plain');
