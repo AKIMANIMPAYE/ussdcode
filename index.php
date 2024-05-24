@@ -118,18 +118,19 @@ else if ($text == "2*3*1") {
     $response .= " nikimara gusha  \n";
     $response .= " nomba neza ikirayi ugaburire umwana\n";
     $response .= " ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
+    $response .= "99) komeza\n";
 
 }
-else if ($text == "2*3*2") {
+else if ($text == "2*3*99") {
 
     $response = "END Igitoki kinombe\n\n";
     $response .= " Umwana ugitangira kurya mutekere\n";
     $response .= "Igitoki kimwe nikimara gushya neza ukinombe\n";
     $response .= "umwana agomba kubirya binoze \n neza kuko nibwo atangiye kurya \n";
     $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
-
+    $response .= "99) komeza\n";
 }
-else if ($text == "2*3*3") {
+else if ($text == "2*3*99") {
 
     $response = "END Igitoki kinombe\n\n";
     $response .= " Umwana ugitangira kurya mutekere\n";
