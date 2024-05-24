@@ -57,13 +57,11 @@ else if($text == "2*2*1") {
     $response .= "-Amakaroni y'abana\n";
     $response .= "-Ibijumba\n";
     $response .= "-Kawunga\n";
-    $response .= "-I\n";
-    $response .= "-Amakaroni y'abana\n";
-
-    
-
-    
-    
+    $response .= "-Imyumbati\n";
+    $response .= "-Amakateke\n";
+    $response .= "-Ibigori\n";
+    $response .= "-Umuceri\n";
+    $response .= "-Ibigori\n"; 
 }
 else if($text == "2*2*2") { 
     // This is a second level response where the user selected 1 in the first instance
