@@ -7,7 +7,7 @@ $text        = $_POST["text"];
 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
-    $response  = "CON Turwanye imirire mubana bari munsi yimyaka itanu \n \n";
+    $response  = "CON Turwanye imirire mibi mubana\n\n";
     $response .= "1) Amezi 6 yambere\n";
     $response .= "2) Amezi 6 kugeza kumezi 9\n";
     $response .= "3) Amezi 9 kugeza ku mwaka \n";
@@ -24,9 +24,9 @@ if ($text == "") {
     // Business logic for first level response
     // This is a terminal request. Note how we start the response with END
     $response = " CON Imirire \n \n";
-    $response .= "1) Abwiriza yibanze \n";
-    $response .= "2) Amoboko yibiribwa \n";
-    $response .= "3) Amafunguro ateguye\n";
+    $response .= "1) Abwiriza  \n";
+    $response .= "2) Ibiribwa\n";
+    $response .= "3) Amafunguro\n";
 } else if($text == "2*1") { 
     // This is a second level response where the user selected 1 in the first instance
     $response = " CON Umwana niyuzuza amezi 6, tangira umuhe ubundi bwoko bw’ibiryo.\n";
@@ -55,6 +55,12 @@ else if($text == "2*2*1") {
     $response .= "-Igitoki\n";
     $response .= "-Ibihaza\n";
     $response .= "-Amakaroni y'abana\n";
+    $response .= "-Ibijumba\n";
+    $response .= "-Kawunga\n";
+    $response .= "-I\n";
+    $response .= "-Amakaroni y'abana\n";
+
+    
 
     
     
