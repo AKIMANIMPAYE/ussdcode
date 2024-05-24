@@ -103,6 +103,15 @@ if ($text == "") {
     
 }
 
+else if ($text == "2*3") {
+
+    $response = "CON Tegura indyo yuzuye \n\n";
+    $response .= "1)Ifunguro rya 1\n";
+    $response .= "2) Ifunguro rya 2 \n";
+    $response .= "3) Ifunguro rya 3\n";
+
+}
+
 // Echo the response back to the API
 header('Content-type: text/plain');
 echo $response;
