@@ -111,6 +111,14 @@ else if ($text == "2*3") {
     $response .= "3) Ifunguro rya 3\n";
 
 }
+else if ($text == "2*3*1") {
+
+    $response = "CON Ikirayi kinobye \n\n";
+    $response .= " Fata ikirayi kimwe,igihate ugiteke\n";
+    $response .= " nikimara gusha  \n";
+    $response .= " nomba neza ikirayi ugaburire umwana\n";
+
+}
 
 // Echo the response back to the API
 header('Content-type: text/plain');
