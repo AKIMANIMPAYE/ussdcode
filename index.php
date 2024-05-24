@@ -7,14 +7,12 @@ $text        = $_POST["text"];
 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
-    $response  = "CON Turwanye imirire mibi yabana  Hitamo imyaka yumwana \n \n";
+    $response  = "CON Turwanye imirire mubana bari munsi yimyaka itanu \n \n";
     $response .= "1) Amezi 6 ya mbere \n";
-    $response .= "2) Amezi 6 kugeza ku mwaka \n";
-    $response .= "3) Umwaka kugeza ku myaka 2\n";
-    $response .= "4) imyaka 2 kugeza ku myaka 3 \n";
-    $response .= "5) imyaka 3 kugeza ku myaka 4 \n";
-    $response .= "6) imyaka 4 kugeza ku myaka 5 \n";
-
+    $response .= "2) Amezi 6 kugeza kumezi 9 \n";
+    $response .= "3) Amezi 9 kugeza ku mezi 12\n";
+    $response .= "4) Umwaka(1)  kugeza ku myaka 2 \n";
+    $response .= "5) Imyaka 2 kugeza ku myaka 5 \n";
 
 } else if ($text == "1") {
     // Business logic for first level response
