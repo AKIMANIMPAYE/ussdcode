@@ -121,7 +121,7 @@ else if ($text == "2*3*1") {
     $response .= "99) komeza\n";
 
 }
-else if ($text == "2*3*99") {
+else if ($text == "2*3*1*99") {
 
     $response = "END Igitoki kinombe\n\n";
     $response .= " Umwana ugitangira kurya mutekere\n";
@@ -130,7 +130,7 @@ else if ($text == "2*3*99") {
     $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
     $response .= "99) komeza\n";
 }
-else if ($text == "2*3*99") {
+else if ($text == "2*3*1*99") {
 
     $response = "END Igitoki kinombe\n\n";
     $response .= " Umwana ugitangira kurya mutekere\n";
