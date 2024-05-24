@@ -62,6 +62,9 @@ if ($text == "") {
     $response .= "-Ingano\n";
     $response .= "-Amagi\n";
     $response .= "-Amafi\n";
+    $response .= "-Amashaza\n";
+    $response .= "-Soya\n";
+    $response .= "-Ubunyobwa\n";
     $response .= "99) Next\n"; // Adding a next option for continuation
 } else if ($text == "2*2*2*99") {
     // Second part of response for 2*2*2
@@ -72,9 +75,7 @@ if ($text == "") {
     $response .= "-Amata\n";
     $response .= "-Uburo\n";
     $response .= "-Uvuta y'inka\n";
-    $response .= "-Amashaza\n";
-    $response .= "-Soya\n";
-    $response .= "-Ubunyobwa\n";
+    
 } else if ($text == "2*2*3") {
     // First part of response for 2*2*3
     $response = "CON Ibirinda indwara(imboga n'imbuto)\n";
@@ -83,6 +84,10 @@ if ($text == "") {
     $response .= "-Dodo\n";
     $response .= "-Isogo\n";
     $response .= "-Umushogoro\n";
+    $response .= "-Ipapayi\n";
+    $response .= "-Watermelon\n";
+    $response .= "-Pome\n";
+    $response .= "-Ibinyomoro\n";
     $response .= "99) Next\n"; // Adding a next option for continuation
 } else if ($text == "2*2*3*99") {
     // Second part of response for 2*2*3
@@ -95,10 +100,7 @@ if ($text == "") {
     $response .= "-Ibisusa\n";
     $response .= "-Avoka\n";
     $response .= "-Imineke\n";
-    $response .= "-Ipapayi\n";
-    $response .= "-Watermelon\n";
-    $response .= "-Pome\n";
-    $response .= "-Ibinyomoro\n";
+    
 }
 
 // Echo the response back to the API
