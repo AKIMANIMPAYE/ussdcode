@@ -123,10 +123,10 @@ else if ($text == "2*3*1") {
         $response .= "gucanira andi mazi angana n’ igikombe cya mironko,\n";
         $response.="cyenda kuzura (3/4) cyabira ukongeramo (rwa ruvange rw’amata n’ifu\n";
         $response .= "gushigisha kugeza kibize bihagije \n";
-        $response .= "99)Komeza\n";
+        $response .= "90)Komeza\n";
     }
 
-    else if ($text == "2*3*1*99") {
+    else if ($text == "2*3*1*90") {
         $response = "CON Ifunguro rya 2:Igikoma cy’ifu y’ibigori kirimo amata y’inka \n\n";
         $response .= "Amata y’inka angana na kimwe cya kabiri,\n";
         $response.="cy’igikombe cya mironko (250ml),\n";
