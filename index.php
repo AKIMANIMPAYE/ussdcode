@@ -157,7 +157,20 @@ else if ($text == "2*3*1") {
         $response .= "99)Komeza";
     }
     else if ($text == "2*3*1*99*99*99") {
-        $response = "CON Uko bitegurwa \n\n";
+        $response = "CON Ifunguro rya 3:Igikoma cy’uruvange rw’amafu (SOSOMA)\n\n";
+        $response .="Ibikenewe mu gutegura ibikombe bibiri bya mironko:\n";
+        $response.="Ifu y’ibigori ibiyiko 3\n";
+        $response .= "Ifu y’amasaka ibiyiko 3\n";
+        $response.="Ifu ya soya ikiyiko 1,\n ";
+        $response.="Kuvanga ya mafu yose, gufata amazi angana na kimwe,\n";
+        $response.=" cya kabiri cy’igikombe cya mironko ku
+        mazi yapimwe ukayavangisha ya fu ku buryo inoga neza\n";
+        $response.="kubiza amazi yasigaye ku yapimwe,\n
+        ugasukamo rwa ruvange, gushigisha kugeza kibize bihagije\n";
+      
+    }
+    else if ($text == "2*3*1*99*99*99*99") {
+        $response = "CON Uko bitegura:\n\n";
         $response .= "Gufata amata ukavanga n’ifu bikanoga,\n";
         $response.="kubivanga n’amazi angana n’igikombe cya mironko,\n";
         $response .= "cyenda kuzura (3/4) bikanoga neza,\n";
