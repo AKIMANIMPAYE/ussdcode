@@ -224,6 +224,53 @@ else if ($text == "2*3*2*99*99") {
     $response .= "Bimaze gushya nomba binoge gusa bibe\n";
     $response .= "Bifashe bihagije gaburira umwana\n";
 }
+else if ($text == "2*3*3") {
+    $response = "CON Ifunguro(imbuto) 1:Imineke\n\n";
+   $response .= " umwana muhe imineke(2)\n";
+   $response .= " yitonore uyinombere kwisahane ye  \n";
+   $response .= " Nibimara kunoga neza gaburira umwana\n";
+   $response .= " Iyo ugaburira umwana ikintu cyambere witaho \n";
+   $response .= " nisuku yibiribwa nibikoresho ukoresha\n\n";
+   $response .= "99)komeza\n";}
+   else if ($text == "2*3*3*99") {
+    $response = "CON Ifunguro rya 2:Igitoki Kinobye \n\n";
+    $response .= " U\n";
+    $response .= "I\n";
+    $response .= "u\n";
+    $response .= "i\n\n";
+    $response .= "99)Komeza\n";
+}else if ($text == "2*3*3*99") {
+    $response = "CON Ifunguro rya 3:Ikijumba Kinobye\n\n";
+    $response .= " Te\n";
+    $response .= "Ni\n";
+    $response .= "ur\n";
+    $response .= "Ib\n"; 
+}else if ($text == "2*3*3*99*") {
+    $response = "CON Ifunguro rya 4:Imvange yibirayi n'imboga\n\n";
+    $response .= "ik\n";
+    $response .= "Ka\n";
+    $response .= "In\n";
+    $response .= "Ig\n"; 
+    $response .= "In\n";
+    $response .= "A\n";
+    $response .= "99)Komeza\n";}
+
+else if ($text == "2*3*2*99*99") {
+    $response = "CON Uko bitegurwa:\n";
+    $response .= "Guhata ibirayi bibiri\n";
+    $response .= "Karote ebyiri ukazikata \n";
+    $response .= "Inyanya ebyiri ukazikata\n";
+    $response .= "Igitunguru kimwe ukagikata\n"; 
+    $response .= "Fata Indagara(ziseye) utuyiko 2\n";
+    $response .= "Bikarange ukoresheje amavuta utuyiko 2\n";
+    $response .= "Bizampaze kuba umutura shyiramo amazi\n";
+    $response .= "Bimaze gushya nomba binoge gusa bibe\n";
+    $response .= "Bifashe bihagije gaburira umwana\n";
+}
+
+
+
+
 
 // Echo the response back to the API
 header('Content-type: text/plain');
