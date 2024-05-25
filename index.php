@@ -165,9 +165,8 @@ else if ($text == "2*3*1") {
         $response.="Kuvanga ya mafu yose, gufata amazi angana na kimwe,\n";
         $response.=" cya kabiri cy’igikombe cya mironko ku
         mazi yapimwe ukayavangisha ya fu ku buryo inoga neza\n";
-        $response.="kubiza amazi yasigaye ku yapimwe,\n
+        $response.="kubiza amazi yasigaye ku yapimwe,
         ugasukamo rwa ruvange, gushigisha kugeza kibize bihagije\n";
-      
     }
     else if ($text == "2*3*1*99*99*99*99") {
         $response = "CON Uko bitegura:\n\n";
@@ -179,12 +178,7 @@ else if ($text == "2*3*1") {
         $response.="yabira ukongeramo rwa ruvange rw’amata n’ifu\n";
         $response.="gushigisha kugeza kibize bihagije\n";
       
-    }
-
-
-
-
-    else if ($text == "2*3*2") {
+    }else if ($text == "2*3*2") {
         $response = "CON Ifunguro rya 1: Ikirayi kimwe\n\n";
        $response .= " Fata ikirayi kimwe,igihate ugiteke\n";
        $response .= " nikimara gusha  \n";
