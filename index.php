@@ -131,7 +131,7 @@ else if ($text == "2*3*1") {
         $response .= "Amata y’inka angana na kimwe cya kabiri,\n";
         $response.="cy’igikombe cya mironko (250ml),\n";
         $response .= "Amazi mu gikombe cya mironko cyuzuye,\n";
-        $response.="Ibiyiko 3 cyangwa 4 by’ifu y’ibigori";
+        $response.="Ibiyiko 3 cyangwa 4 by’ifu y’ibigori\n";
         $response .= "99)Komeza";
     }
     else if ($text == "2*3*1*99*99") {
