@@ -224,7 +224,7 @@ else if ($text == "2*3*2*99*99") {
     $response .= "Bimaze gushya nomba binoge gusa bibe\n";
     $response .= "Bifashe bihagije gaburira umwana\n";
 }
-else if ($text == "2*3*3*1") {
+else if ($text == "2*3*3") {
     $response = "CON Ifunguro(imbuto) 1:Imineke\n\n";
    $response .= " umwana muhe imineke(2)\n";
    $response .= " yitonore uyinombere kwisahane ye\n";
