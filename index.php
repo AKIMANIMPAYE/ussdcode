@@ -110,7 +110,7 @@ else if ($text == "2*3") {
 }
 else if ($text == "2*3*1") {
      $response = "CON Ifunguro rya 1: Igikoma cy’ifu y’amasaka kirimo amata y’inka\n\n";
-    $response .= " Amata y’inka angana na kimwe cya kabiri,";
+    $response .= " Amata y’inka angana na kimwe cya kabiri,\n";
     $response .= "  cy’igikombe cya mironko (250 ml) \n";
     $response .= " Amazi mu gikombe cya mironko \n";
     $response .= " Ifu y’amasaka: Ibiyiko 4 cyangwa 5\n";
@@ -121,7 +121,7 @@ else if ($text == "2*3*1") {
         $response .= "kubivanga n’amazi yenda kuzura igikombe,\n";
         $response.="cya mironko (3/4) bikanoga neza\n";
         $response .= "gucanira andi mazi angana n’ igikombe cya mironko,\n";
-        $response.="  cyenda kuzura (3/4) cyabira ukongeramo (rwa ruvange rw’amata n’ifu";
+        $response.="cyenda kuzura (3/4) cyabira ukongeramo (rwa ruvange rw’amata n’ifu\n";
         $response .= "gushigisha kugeza kibize bihagije \n";
         $response .= "99)Komeza\n";
     }
