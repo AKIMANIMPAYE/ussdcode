@@ -132,7 +132,7 @@ else if ($text == "2*3*1") {
         $response.="cy’igikombe cya mironko (250ml),\n";
         $response .= "Amazi mu gikombe cya mironko cyuzuye,\n";
         $response.="Ibiyiko 3 cyangwa 4 by’ifu y’ibigori";
-        $response .= "99)Komeza\n";
+        $response .= "90)Komeza\n";
     }
     else if ($text == "2*3*1*90") {
         $response = "CON Ifunguro rya 2:Uko bitegurwa \n\n";
@@ -218,10 +218,9 @@ else if ($text == "2*3*2*99") {
     $response .= "Fata Indagara(ziseye) utuyiko 2\n";
     $response .= "Bikarange ukoresheje amavuta utuyiko 2\n";
     $response .= "Bizampaze kuba umutura shyiramo amazi\n";
-    $response .= "Bimaze gushya nomba binoge gusa bibe \n";
+    $response .= "Bimaze gushya nomba binoge gusa bibe\n";
     $response .= "Bifashe bihagije gaburira umwana\n";
 }
-
 
 // Echo the response back to the API
 header('Content-type: text/plain');
