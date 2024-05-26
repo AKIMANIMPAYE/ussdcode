@@ -65,7 +65,7 @@ else if ($text == "2*2") {
     $response .= "99) Komeza\n"; // Adding a next option for continuation
 } else if ($text == "2*2*1*99") {
     // Second part of response for 2*2*1
-    $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu) Part 2\n\n";
+    $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
     $response .= "-Kawunga\n";
     $response .= "-Imyumbati\n";
     $response .= "-Amateke\n";
@@ -85,7 +85,7 @@ else if ($text == "2*2") {
     $response .= "99) Next\n"; // Adding a next option for continuation
 } else if ($text == "2*2*2*99") {
     // Second part of response for 2*2*2
-    $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo) Part 2\n\n";
+    $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo)\n\n";
     $response .= "-Inyama\n";
     $response .= "-Ibishyimbo\n";
     $response .= "-Indagara\n";
@@ -108,7 +108,7 @@ else if ($text == "2*2") {
     $response .= "99) Komeza\n"; // Adding a next option for continuation
 } else if ($text == "2*2*3*99") {
     // Second part of response for 2*2*3
-    $response = "CON Ibirinda indwara(imboga n'imbuto) Part 2\n\n";
+    $response = "CON Ibirinda indwara(imboga n'imbuto)\n\n";
     $response .= "-Isombe\n";
     $response .= "-Amashu\n";
     $response .= "-Ibishayote\n";
@@ -405,10 +405,11 @@ else if ($text == "2*3*3*99*99*99") {
                     }
                     else if ($text == "3*1*99*99") {
                         // This is a second level response where the user selected 1 in the first instance
-                        $response .= " END Muhe ku biryo n’abandi bafata mu rugo,binombye cyane,\n";
-                        $response .= " Koresha isahani yihariye kugira ngo wizere ko umwana \n";
+                        $response .= "END Koresha isahani yihariye kugira ngo wizere ko umwana\n";
                         $response .= "arangiza ibiryo wamugeneye.\n";
                         $response .= " Gerageza kumugaburira ibiryo binyuranye kuri buri funguro.\n";
+                        $response .="Ibiryo bikomoka ku matungo, ibinyampeke\n";
+                       $response .=" ibinyamizi n’ibinyabijumba; imboga n’imbuto\n";
                     }
                     
                     else if ($text == "3*2") {
@@ -428,7 +429,7 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "99) Komeza\n"; // Adding a next option for continuation
                     } else if ($text == "3*2*1*99") {
                         // Second part of response for 2*2*1
-                        $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu) Part 2\n\n";
+                        $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
                         $response .= "-Kawunga\n";
                         $response .= "-Imyumbati\n";
                         $response .= "-Amateke\n";
@@ -448,7 +449,7 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "99) Next\n"; // Adding a next option for continuation
                     } else if ($text == "3*2*2*99") {
                         // Second part of response for 2*2*2
-                        $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo) Part 2\n\n";
+                        $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo)\n\n";
                         $response .= "-Inyama\n";
                         $response .= "-Ibishyimbo\n";
                         $response .= "-Indagara\n";
@@ -468,10 +469,11 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "-Watermelon\n";
                         $response .= "-Pome\n";
                         $response .= "-Ibinyomoro\n";
+                        $response.="amaronji\n";
                         $response .= "99) Komeza\n"; // Adding a next option for continuation
                     } else if ($text == "3*2*3*99") {
                         // Second part of response for 2*2*3
-                        $response = "CON Ibirinda indwara(imboga n'imbuto) Part 2\n\n";
+                        $response = "CON Ibirinda indwara(imboga n'imbuto) \n\n";
                         $response .= "-Isombe\n";
                         $response .= "-Amashu\n";
                         $response .= "-Ibishayote\n";
@@ -480,6 +482,7 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "-Ibisusa\n";
                         $response .= "-Avoka\n";
                         $response .= "-Imineke\n";
+                        $response .= "-shoufrere\n";
                     }
                     else if ($text == "3*3") {
                         $response = "CON Tegura indyo yuzuye \n\n";
@@ -489,21 +492,20 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "4) Nimugoroba\n";
                     }
                     else if ($text == "3*3*1") {
-                         $response = "CON Ifunguro rya 1: Igikoma cy’ifu y’amasaka kirimo amata y’inka\n\n";
-                        $response .= " Amata y’inka angana na kimwe cya kabiri,\n";
-                        $response .= "  cy’igikombe cya mironko (250 ml) \n";
-                        $response .= " Amazi mu gikombe cya mironko \n";
-                        $response .= " Ifu y’amasaka: Ibiyiko 4 cyangwa 5\n";
-                        $response .= " Gufata amata ukavanga n’ifu bikanoga\n";
+                         $response = "CON Ifunguro rya 1: Porichi n'amata\n\n";
+                        $response .= " Amata y’inka angana \n";
+                        $response .= "  n’igikombe cya mironko (250 ml) \n";
+                        $response .= " shyiramo amazi kimwe cya kabiri cyicyo gikombe \n";
+                        $response .= " shyiramo ibiyiko 4 bya porichi\n";
+                        $response .= " shyira kuziko ukomeze ukorogemo\n";
                         $response .= "99)komeza\n";}
                     else if ($text == "3*3*1*99") {
-                            $response = "CON Igikoma cy’ifu y’amasaka kirimo amata y’inka \n\n";
-                            $response .= "kubivanga n’amazi yenda kuzura igikombe,\n";
-                            $response.="cya mironko (3/4) bikanoga neza\n";
-                            $response .= "gucanira andi mazi angana n’ igikombe cya mironko,\n";
-                            $response.="cyenda kuzura (3/4) cyabira ukongeramo (rwa ruvange rw’amata n’ifu\n";
-                            $response .= "gushigisha kugeza kibize bihagije\n";
-                            $response .= "99)Komeza";
+                            $response ="CON uko bigenda bishyuha biraza gufata \n\n";
+                            $response .="nibimara kubira bikureho\n";
+                            $response.="Gaburira umwana \n";
+                            $response.="amafunguro yumwana agomba kuba afashe\n";
+                            $response .="ibyo ubibwirwa nuko bifashe kukiyiko\n";
+                            $response .="99)Komeza";
                         }
                     
                     else if ($text == "3*3*1*99*99") {
@@ -542,7 +544,7 @@ else if ($text == "2*3*3*99*99*99") {
                             $response.="Ifu y’ibigori ibiyiko 3\n";
                             $response .= "Ifu y’amasaka ibiyiko 3\n";
                             $response.="Ifu ya soya ikiyiko 1,\n ";
-                            $response.="99)Komeza,\n ";}
+                            $response.="99)Komeza ";}
                     else if($text == "3*3*1*99*99*99*99"){
                             $response.=" CON Kuvanga ya mafu yose, gufata amazi angana na kimwe,\n";
                             $response.=" cya kabiri cy’igikombe cya mironko ku
@@ -550,6 +552,20 @@ else if ($text == "2*3*3*99*99*99") {
                             $response.="kubiza amazi yasigaye ku yapimwe,
                         ugasukamo rwa ruvange, gushigisha kugeza kibize bihagije\n";
                      }
+                     else if ($text == "3*3*1*99*99*99*99") {
+                        $response = "CON Ifunguro rya 4:Igikoma cy'ingano kivanze namasaka\n\n";
+                        $response .="fata ibiyiko 2 byifu yamasaka :\n";
+                        $response.="Ifu y’ingano ibiyiko 3\n";
+                        $response .= "bishyire mwisafuriya ushyiremo ibikombe\n";
+                        $response.="bibiri byamazi korogamo ushyire kuziko\n ";
+                        $response.="99)Komeza ";}
+                else if($text == "3*3*1*99*99*99*99"){
+                        $response.=" CON  komeza gukorogamo paka igikoma kibize\n";
+                        $response.=" igikoma cyumwana kigomba kuba gifashe\n";
+                        $response.="igihe kimaze kubira gikureho ugihoze\n";
+                        $response.="gaburira umwana igikoma\n";
+                       
+                 }
                     else if ($text == "3*3*2") {
                             $response = "CON Ifunguro rya 1: Ikirayi kimwe\n\n";
                            $response .= " Fata ikirayi kimwe,igihate ugiteke\n";
