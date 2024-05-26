@@ -179,15 +179,6 @@ else if ($text == "2*3*1") {
        $response .= " nomba neza ikirayi ugaburire umwana\n";
        $response .= " ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
        $response .= "99) komeza\n";}
-
-    else if ($text == "2*3*2") {
-     $response = "CON Ifunguro rya 1: Ikirayi kimwe\n\n";
-    $response .= " Fata ikirayi kimwe,igihate ugiteke\n";
-    $response .= " nikimara gusha  \n";
-    $response .= " nomba neza ikirayi ugaburire umwana\n";
-    $response .= " ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
-    $response .= "99) komeza\n";
-}
 else if ($text == "2*3*2*99") {
     $response = "CON Ifunguro rya 2:Igitoki Kinobye \n\n";
     $response .= " Umwana ugitangira kurya mutekere\n";
@@ -201,17 +192,17 @@ else if ($text == "2*3*2*99") {
     $response .= "Nikimara gushya neza \n";
     $response .= "urakinomba ukoresheje ikiyiko kinoge neza\n neza kuko nibwo atangiye kurya \n";
     $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n"; 
-}else if ($text == "2*3*3*99") {
+}else if ($text == "2*3*2*99*") {
     $response = "CON Ifunguro rya 4:Imvange yibirayi n'imboga\n\n";
     $response .= "ikirayi\n";
     $response .= "Karote\n";
     $response .= "Inyanya\n";
     $response .= "Igitunguru\n"; 
     $response .= "Indagara(ziseye)\n";
-    $response .= "Amavuta\n";
+    $response .= "Amavuta\n\n";
     $response .= "99)Komeza\n";
 }
-else if ($text == "2*3*3*99*99*99") {
+else if ($text == "2*3*2*99*99") {
 
     $response = "CON Uko bitegurwa:\n";
     $response .= "Guhata ibirayi bibiri\n";
@@ -224,7 +215,7 @@ else if ($text == "2*3*3*99*99*99") {
     $response .= "Bimaze gushya nomba binoge gusa bibe\n";
     $response .= "Bifashe bihagije gaburira umwana\n";
 }
-else if ($text == "2*3*3*99*99*99") {
+else if ($text == "2*3*3*99*99") {
     $response = "CON Ifunguro(imbuto) 1:Imineke\n\n";
    $response .= " umwana muhe imineke(2)\n";
    $response .= " yitonore uyinombere kwisahane ye\n";
