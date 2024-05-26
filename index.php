@@ -314,11 +314,11 @@ else if ($text == "2*3*3*99*99*99") {
             else if ($text == "2*3*4*99") {
                 $response = "CON Ifunguro rya 2:\n\n";
                 $response .= "(Ikirayi,dodo,inyanya,amavuta).\n";
-                $response .= " Fata ibirayi 2,imboga nyeyainyanya 3,\n";
+                $response .= "Fata ibirayi 2,imboga nyeyainyanya 3,\n";
                 $response .= "amavuta 2,igitunguro kimwe\n";
-                $response .= " bitungaye byose ubiteke ushyiremo amazi\n";
-                $response .= " ahagije teka ibiryo bishye cyane\n";
-                $response .= " nomba neza ibiryo binoge\n cg ukoresheje(blender)\n";
+                $response .= "bitungaye byose ubiteke ushyiremo amazi\n";
+                $response .= "ahagije teka ibiryo bishye cyane\n";
+                $response .= "nomba neza ibiryo binoge\n cg ukoresheje(blender)\n";
                 $response .= "niba uyifite.\n Gaburira umwana wawe ukoresheje akayiko\n";
                 $response .= "99)komeza\n";}
                 else if ($text == "2*3*4*99*99") {
@@ -334,7 +334,7 @@ else if ($text == "2*3*3*99*99*99") {
                     $response .= "99)komeza\n";}
                     else if ($text == "2*3*4*99*99*99") {
                         $response = "CON Ifunguro rya 4:Ikijumba Kinobye\n\n";
-                        $response .= " Tekera umwana ikijumba kimwe\n";
+                        $response .= "Tekera umwana ikijumba kimwe\n";
                         $response .= "Nikimara gushya neza \n";
                         $response .= "urakinomba ukoresheje ikiyiko kinoge neza\n neza kuko nibwo atangiye kurya \n";
                         $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n"; 
@@ -342,7 +342,7 @@ else if ($text == "2*3*3*99*99*99") {
             else if($text == "2*3*4*99*99*99*99")
                   {
                     $response = "CON Ifunguro rya 5:\n\n";
-                    $response.="(Amakaroni yabana,igi,karote,inyanya)";
+                    $response.="(Amakaroni yabana,igi,karote,inyanya)\n";
                     $response .= "Tunganya koroti 2,inyanya 3,amavuta akayiko 1\n";
                     $response .= "karanga karote nizimara kuba\n";
                     $response .= "umutura,shyiramo inyanya\n";
