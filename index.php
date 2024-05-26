@@ -201,7 +201,7 @@ else if ($text == "2*3*2*99") {
     $response .= "Nikimara gushya neza \n";
     $response .= "urakinomba ukoresheje ikiyiko kinoge neza\n neza kuko nibwo atangiye kurya \n";
     $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n"; 
-}else if ($text == "2*3*2*99*") {
+}else if ($text == "2*3*3*99*99") {
     $response = "CON Ifunguro rya 4:Imvange yibirayi n'imboga\n\n";
     $response .= "ikirayi\n";
     $response .= "Karote\n";
@@ -211,7 +211,7 @@ else if ($text == "2*3*2*99") {
     $response .= "Amavuta\n";
     $response .= "99)Komeza\n";
 }
-else if ($text == "2*3*2*99*99") {
+else if ($text == "2*3*2*99*99*99") {
 
     $response = "CON Uko bitegurwa:\n";
     $response .= "Guhata ibirayi bibiri\n";
@@ -224,7 +224,7 @@ else if ($text == "2*3*2*99*99") {
     $response .= "Bimaze gushya nomba binoge gusa bibe\n";
     $response .= "Bifashe bihagije gaburira umwana\n";
 }
-else if ($text == "2*3*3*99*99") {
+else if ($text == "2*3*3*99*998*999") {
     $response = "CON Ifunguro(imbuto) 1:Imineke\n\n";
    $response .= " umwana muhe imineke(2)\n";
    $response .= " yitonore uyinombere kwisahane ye\n";
