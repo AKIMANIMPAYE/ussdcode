@@ -772,31 +772,31 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "3) Amafunguro\n";
                     } else if ($text == "4*1") {
                         // This is a second level response where the user selected 1 in the first instance
-                        $response = "CON Umwana niyuzuza amezi 9 kugeza ku mwaka,\n ";
-                        $response.="Komeza konsa umwana wawe ku manywa na ninjoro uko abishatse.\n";
-                        $response .= "Ibi bizatuma agumya kugira ubuzima bwiza n’imbaraga,\n";
+                        $response = "CON Umwana ugejeje umwaka aba yatangiye kumera amenyo,\n ";
+                        $response.="Umwana abageze mukigero cyuko aba ashaka kwirisha .\n";
+                        $response .= "kandi abishishikariye, aha umwana nabwo \n";
                         $response .= "99)Komeza \n";
                        
                     }
                     else if ($text == "4*1*99") {
                         // This is a second level response where the user selected 1 in the first instance
-                        $response="CON kubera ko amashereka aba akiri ingenzi mu bigize indyo y’umwana.\n";
-                        $response .= "Amashereka atanga kimwe cyakabiri cy’imbaraga umwana\n ";
-                        $response .= " akeneye igihe afite amezi 6 kugeza kuri 12\n";
-                        $response .= " Gaburira umwana wawe inshuro 4 ku munsi\n";
-                        $response .= "Muhe ku biryo n’abandi bafata mu rugo,binombye cyane,\n";
-                        $response .= "99) Komeza \n";
+                        $response="CON abakirya ibiryo binobye binoze cyane.\n";
+                        $response .= "Ibiribwa nkimuto byo abatangiye kubirya bitanobye\n ";
+                        $response .= "Komeza konsa umwana wawe kugeza agize imyaka ibiri\n";
+                        $response .= "Anso umwana wawe nyuma yo kurya\n";
+                        $response .= " Gaburira umwana wawe inshuro 5 ku munsi\n";
+                        $response .= "99) Komeza\n";
                     }
                     else if ($text == "4*1*99*99") {
                         // This is a second level response where the user selected 1 in the first instance
-                        $response .= "END Koresha isahani yihariye kugira ngo wizere ko umwana\n";
-                        $response .= "arangiza ibiryo wamugeneye.\n";
+                        $response = "END Koresha isahani yihariye kugira ngo wizere ko umwana\n";
                         $response .= " Gerageza kumugaburira ibiryo binyuranye kuri buri funguro.\n";
                         $response .="Ibiryo bikomoka ku matungo, ibinyampeke\n";
                        $response .=" ibinyamizi n’ibinyabijumba; imboga n’imbuto\n";
-                    }
-                    
-                    else if ($text == "4*2") {
+                       $response .=" ibinyamizi n’ibinyabijumba; imboga n’imbuto\n";
+                       $response.=" Muhe ku biryo n’abandi bafata mu rugo, binombye\n";
+                       $response.=" cyangwa bicagaguyemo uduce duto, ndetse n’ibiryo bifatishwa intoki.\n";  
+                    } else if ($text == "4*2") {
                         // This is a second level response where the user selected 2 in the first instance
                         $response = "CON Ibigize indyo yuzuye\n\n";
                         $response .= "1) Ibitera imbaraga\n";
