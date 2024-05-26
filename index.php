@@ -190,7 +190,7 @@ else if ($text == "2*3*2*99") {
     $response .= " Umwana ugitangira kurya mutekere\n";
     $response .= "Igitoki kimwe nikimara gushya neza ukinombe\n";
     $response .= "umwana agomba kubirya binoze \n neza kuko nibwo atangiye kurya \n";
-    $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n\n";
+    $response .= "ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
     $response .= "99)Komeza\n";
 }
 else if ($text == "2*3*2*99") {
@@ -218,7 +218,20 @@ else if ($text == "2*3*2*99*99") {
     $response .="Utuyiko 2 amavuta ikiyiko kimwe\n";
     $response .="Teka amafunguro wibuke koroshya ibiryo kugirango\n";
     $response .="ubone uko ubinomba ariko byoroshye\n";  
+    $response .= "99)Komeza\n";
 }
+else if ($text == "2*3*2*99*99*99") {
+    $response = "CON Ifunguro 5:porichi ivanze namata\n";
+    $response .= "Fata amata igikombe cya mironko,\n";
+    $response .= "shyiramo amazi igice kigikombe cya mironko\n";
+    $response .= "Teka amata nampara gushyuha shyiramo\n";
+    $response .= "Ibiyiko 4 bya porichi\n"; 
+    $response .= "genda uvanga gake gake\n";
+    $response .= "uko bigenda bishya bigenda bifata komeza\n";
+    $response .= "uvangemo nibimara gutogota bikureho\n";
+    $response .= "reka bihore ugaburira umwana wawe\n";
+    $response .= "99)komeza\n";}
+
 else if ($text == "2*3*3") {
     $response = "CON Ifunguro(imbuto) 1:Imineke\n\n";
     $response .= " umwana muhe imineke(2)\n";
