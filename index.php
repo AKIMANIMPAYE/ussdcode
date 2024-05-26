@@ -599,7 +599,8 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "bikiri bibisi ushyiremo amazi ibikombe \n";
                         $response .= "bibiri ucanire bishye \n";
                         $response .= "nombera umwana gusa utabinoza cyane\n";
-                        $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n"; 
+                        $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
+                        $response .= "99)Komeza\n"; 
                     }
                     else if ($text == "3*3*2*99*99*99*99") {
                         $response = "CON Ifunguro rya 4:Imvange yibitoki n'imboga\n\n";
