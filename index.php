@@ -303,7 +303,7 @@ else if ($text == "2*3*3*99*99*99") {
             $response.="99)Komeza,\n ";
             }
             else if ($text == "2*3*4") {
-            $response = "CON Ifunguro rya 1:Igitoki,amashaza,inyanya,karote.\n\n";
+            $response = "CON Ifunguro rya 1:\n Igitoki,amashaza,inyanya,karote.\n";
             $response .= " Fata ibitoki 2,amashaza ibiyiko 2,inyanya 3,\n";
             $response .= "karote 2,igitunguro kimwe\n";
             $response .= " bitungaye byose ubiteke ushyiremo amazi\n";
