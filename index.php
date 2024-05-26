@@ -342,7 +342,7 @@ else if ($text == "2*3*3*99*99*99") {
             else if($text == "2*3*4*99*99*99*99")
                   {
                     $response = "CON Ifunguro rya 5:\n";
-                    $response.="(Amakaroni yabana,igi,karote,inyanya)\n";
+                    $response.="(Amakaroni yabana,\n igi,karote,inyanya)\n";
                     $response .= "Tunganya koroti 2,inyanya 3,amavuta akayiko 1\n";
                     $response .= "karanga karote nizimara kuba\n";
                     $response .= "umutura,shyiramo inyanya\n";
