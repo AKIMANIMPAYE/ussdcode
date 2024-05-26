@@ -268,7 +268,7 @@ else if ($text == "2*3*3*99*99") {
         $response .= "Gaburira umwana ukoreshe akayiko\n";
         $response .= "ibuka ko umwana umuha umutobe gusa\n";
         $response .= "99)komeza\n\n";}
-        else if ($text == "2*3*2*99*99*99*99") {
+        else if ($text == "2*3*3*99*99*99*99") {
 
         $response = "CON Ifunguro 5:Amata\n";
         $response .= "Fata yuzuye igikombe cya mironko,\n";
