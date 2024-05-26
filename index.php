@@ -29,8 +29,12 @@ if ($text == "") {
     $response = "CON Umwana niyuzuza amezi 6, tangira umuhe ubundi bwoko bw’ibiryo.\n";
     $response .= "Amashereka akomeza kuba ingenzi mu bigize indyo y’umwana wawe\n";
     $response .= "Ha umwana amashereka buri gihe mbere yo kumuha ibiryo \n";
-    $response .= "Umwana ashobora gukenera igihe kinini kugira ngo amenyere kurya ubundi bwoko bw’ibiryo bitari amashereka.\n";
-    $response .= "Ihangane, shishikariza umwana wawe kurya ubyitayeho, ariko ntukabimuhatire.\n";
+    $response .= "Umwana ugitangira kurya umugarira inshuro byibuze 2 kumunsi\n";
+    $response .= "Tangiza umwana ikintu kimwe kigirango urebeko ntakibazo kimutera \n";
+    $response .= "Mugihe umwana umaze kubonako ibiribwa bitandukanye ntacyo \n";
+    $response .= "Bimutwara tangira kujya uvanga ibiribwa kugirango indyo  \n";
+    $response .= "yuzuye iboneke igizwe(ibyubaka umubiri,ibitera imbaraga ni \n";
+    $response .= "ibirinda indwara) \n";
 } else if ($text == "2*2") {
     // This is a second level response where the user selected 2 in the first instance
     $response = "CON Ibigize indyo yuzuye\n\n";
