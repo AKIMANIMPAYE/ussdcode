@@ -341,17 +341,23 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "99)komeza\n";}
             else if($text == "2*3*4*99*99*99*99")
                   {
-                    $response = "CON Ifunguro rya 5:\n\n";
+                    $response = "CON Ifunguro rya 5:\n";
                     $response.="(Amakaroni yabana,igi,karote,inyanya)\n";
                     $response .= "Tunganya koroti 2,inyanya 3,amavuta akayiko 1\n";
                     $response .= "karanga karote nizimara kuba\n";
                     $response .= "umutura,shyiramo inyanya\n";
                     $response .= " shyiramo amazi arengeye ho gato\n"; 
                     $response .= " shyiramo shyiramo igi rimwe na makaroni zabana\n"; 
+                    $response .= "99)komeza\n";}
+                    else if($text == "2*3*4*99*99*99*99*99")
+                  {
+                    $response = "CON Ifunguro rya 5:\n";
+                    $response .= " shyiramo shyiramo igi rimwe na makaroni zabana\n"; 
                     $response .= "komeza ucanire nyuma yiminota 8 kuramo igi uritonore\n"; 
                     $response .= "urishyiremo ritonoye cishamo akuko ubireke bishye neza\n"; 
                     $response .= "bimpaze gushya nomba neza ibiryo binoge ugaburire umwana\n"; 
                     $response .= "99)komeza\n";}
+
 
 
 
