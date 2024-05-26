@@ -388,26 +388,27 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "3) Amafunguro\n";
                     } else if ($text == "3*1") {
                         // This is a second level response where the user selected 1 in the first instance
-                        $response = "CON Umwana niyuzuza amezi 6,\n ";
-                        $response.="tangira umuhe ubundi bwoko bw’ibiryo.\n";
-                        $response .= "Amashereka akomeza kuba ingenzi mu bigize indyo y’umwana wawe\n";
+                        $response = "CON Umwana niyuzuza amezi 9 kugeza ku mwaka,\n ";
+                        $response.="Komeza konsa umwana wawe ku manywa na ninjoro uko abishatse.\n";
+                        $response .= "Ibi bizatuma agumya kugira ubuzima bwiza n’imbaraga,\n";
                         $response .= "99)Komeza \n";
                        
                     }
                     else if ($text == "3*1*99") {
                         // This is a second level response where the user selected 1 in the first instance
-                        $response="CON tangira umuhe ubundi bwoko bw’ibiryo.\n";
-                        $response .= "Umwana ugitangira kurya umugaburira inshuro byibuze 2 kumunsi\n";
-                        $response .= "Tangiza umwana ubwoko bumwe(urugero:ikirayi\n";
-                        $response .= "igitoki,igikoma,ipapayi) kigirango urebeko ntakibazo bimutera \n";
+                        $response="CON kubera ko amashereka aba akiri ingenzi mu bigize indyo y’umwana.\n";
+                        $response .= "Amashereka atanga kimwe cyakabiri cy’imbaraga umwana\n ";
+                        $response .= " akeneye igihe afite amezi 6 kugeza kuri 12\n";
+                        $response .= " Gaburira umwana wawe inshuro 4 ku munsi\n";
+                        $response .= "Muhe ku biryo n’abandi bafata mu rugo,binombye cyane,\n";
                         $response .= "99) Komeza \n";
                     }
                     else if ($text == "3*1*99*99") {
                         // This is a second level response where the user selected 1 in the first instance
-                        $response = "END Mugihe umwana umaze kubonako ibiribwa bitandukanye ntacyo \n";
-                        $response .= "Bimutwara tangira kujya uvanga ibiribwa kugirango indyo  \n";
-                        $response .= "yuzuye iboneke igizwe(ibyubaka umubiri,ibitera imbaraga ni \n";
-                        $response .= "ibirinda indwara) \n";
+                        $response .= " END Muhe ku biryo n’abandi bafata mu rugo,binombye cyane,\n";
+                        $response .= " Koresha isahani yihariye kugira ngo wizere ko umwana \n";
+                        $response .= "arangiza ibiryo wamugeneye.\n";
+                        $response .= " Gerageza kumugaburira ibiryo binyuranye kuri buri funguro.\n";
                     }
                     
                     else if ($text == "3*2") {
