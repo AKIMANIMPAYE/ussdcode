@@ -553,6 +553,7 @@ else if ($text == "2*3*3*99*99*99") {
                             $response.="Teka amazi igikombe kimwe\n";
                             $response.=" namara kubira sukamo rwa ruvange,\n";
                             $response.="shigisha kugeza kibize bihagije\n";
+                            $response.="99)Komeza ";}
                      }
                      else if ($text == "3*3*1*99*99*99*99") {
                         $response = "CON Ifunguro rya 4:Igikoma cy'ingano kivanze namasaka\n\n";
