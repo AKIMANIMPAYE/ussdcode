@@ -291,6 +291,15 @@ else if ($text == "2*3*3*99*99") {
             $response .= "uvangemo nibimara gutogota bikureho\n";
             $response .= "reka bihore ugaburira umwana wawe\n";
             $response .= "99)komeza\n\n";}
+            else if ($text == "2*3*3*99*99*99*99*99*99") {
+                $response = "CON Ifunguro rya 3:Igikoma cy’uruvange rw’amafu (SOSOMA)\n\n";
+                $response .="Ibikenewe mu gutegura ibikombe bibiri bya mironko:\n";
+                $response.="Ifu y’ibigori ibiyiko 3\n";
+                $response .= "Ifu y’amasaka ibiyiko 3\n";
+                $response.="Ifu ya soya ikiyiko 1,\n ";
+                $response.="99)Komeza,\n ";
+            }
+
 
 
 
