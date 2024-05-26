@@ -33,7 +33,7 @@ if ($text == "") {
     $response .= "Ihangane, shishikariza umwana wawe kurya ubyitayeho, ariko ntukabimuhatire.\n";
 } else if ($text == "2*2") {
     // This is a second level response where the user selected 2 in the first instance
-    $response = "CON Indyo yuzuye igirwa\n\n";
+    $response = "CON Ibigize indyo yuzuye\n\n";
     $response .= "1) Ibitera imbaraga\n";
     $response .= "2) Ibyubaka umubiri \n";
     $response .= "3) Ibirinda indwara\n";
@@ -244,21 +244,21 @@ else if ($text == "2*3*3") {
     $response .= "Cyangwa ikindi kintu cyose\n";
     $response .= "99)komeza\n\n";}
     
-else if ($text == "2*3*2*99*99") {
+else if ($text == "2*3*3*99*99") {
 
     $response = "CON Ifunguro(imbuto) 3:Avoka ihiye neza\n";
     $response .= "Fata avoka ihiye neza\n";
     $response .= "Uyironge namazi meza\n";
     $response .= "Tonora avoka uyikatemo duto duto\n";
-    $response .= "Niba umwana wawe aribyo atangiye kurya\n"; 
+    $response .= "Niba umwana wawe aribwo atangiye kurya\n"; 
     $response .= "Nombera  avoka kwisahane yumwana,\n";
     $response .= "inoge neza gusa ntugire ikindi\n kintu ushyiramo habe namazi\n";
     $response .= "Gaburira ummwana ukoreshe akayiko\n";
     $response .= "99)komeza\n\n";}
 
-    else if ($text == "2*3*2*99*99*99") {
+    else if ($text == "2*3*3*99*99*99") {
 
-        $response = "CON Ifunguro(imbuto) 3:Ikinyomoro\n";
+        $response = "CON Ifunguro(imbuto) 4:Ikinyomoro\n";
         $response .= "Fata ibinyomoro bibiri bihiye neza,\n";
         $response .= "ubyoze namazi meza\n";
         $response .= "Fata iinyomoro ugikande gake gake kugirango,\n";
@@ -267,6 +267,18 @@ else if ($text == "2*3*2*99*99") {
         $response .= "kuramo umutobe uwushyira kwisahane yumwana\n";
         $response .= "Gaburira umwana ukoreshe akayiko\n";
         $response .= "ibuka ko umwana umuha umutobe gusa\n";
+        $response .= "99)komeza\n\n";}
+        else if ($text == "2*3*2*99*99*99*99") {
+
+        $response = "CON Ifunguro 5:Amata\n";
+        $response .= "Fata yuzuye igikombe cya mironko,\n";
+        $response .= "shyiramo amazi igice kigikombe cya mironko(1/2)\n";
+        $response .= "Teka amata mwisafuriya ifite isuku\n";
+        $response .= "Amata nampara kubira ishuro 2\n"; 
+        $response .= "yakure kuziko uyahoze uhe umwana\n";
+        $response .= "Irinde gushyira isukarimo isukari\n";
+        $response .= "isuka sinziza ku mwana uri munsi\n";
+        $response .= "yumwaka umwe\n";
         $response .= "99)komeza\n\n";}
 
 
