@@ -256,7 +256,18 @@ else if ($text == "2*3*2*99*99") {
     $response .= "Gaburira ummwana ukoreshe akayiko\n";
     $response .= "99)komeza\n\n";}
 
-   
+    else if ($text == "2*3*2*99*99*99") {
+
+        $response = "CON Ifunguro(imbuto) 3:Ikinyomoro\n";
+        $response .= "Fata ibinyomoro bibiri bihiye neza,\n";
+        $response .= "ubyoze namazi meza\n";
+        $response .= "Fata iinyomoro ugikande gake gake kugirango,\n";
+        $response .= "Umutobe wegerane\n"; 
+        $response .= "kata ikinyomoro hejuru, ukoresheje ikiyiko\n";
+        $response .= "kuramo umutobe uwushyira kwisahane yumwana\n";
+        $response .= "Gaburira umwana ukoreshe akayiko\n";
+        $response .= "ibuka ko umwana umuha umutobe gusa\n";
+        $response .= "99)komeza\n\n";}
 
 
 
