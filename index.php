@@ -232,6 +232,30 @@ else if ($text == "2*3*3") {
    $response .= " Iyo ugaburira umwana ikintu cyambere witaho \n";
    $response .= " nisuku yibiribwa nibikoresho ukoresha\n\n";
    $response .= "99)komeza\n\n";}
+
+   else if ($text == "2*3*3*99") {
+
+    $response = "CON Ifunguro(imbuto) 2: Ipapayi ihiye neza\n";
+    $response .= "Fata ipapayi ihiye neza\n";
+    $response .= "Uyironge namazi meza\n";
+    $response .= "Hata ipapayi uyikatemo duto duto\n";
+    $response .= "Niba umwana wawe aribyo atangiye kurya\n"; 
+    $response .= "Nomba ipapayi inoge ntugire amazi ushyiramo,\n";
+    $response .= "Cyangwa ikindi kintu cyose\n";
+    $response .= "99)komeza\n\n";}
+    
+else if ($text == "2*3*2*99*99") {
+
+    $response = "CON Ifunguro(imbuto) 3:Avoka ihiye neza\n";
+    $response .= "Fata avoka ihiye neza\n";
+    $response .= "Uyironge namazi meza\n";
+    $response .= "Tonora avoka uyikatemo duto duto\n";
+    $response .= "Niba umwana wawe aribyo atangiye kurya\n"; 
+    $response .= "Nombera  avoka kwisahane yumwana,\n";
+    $response .= "inoge neza gusa ntugire ikindi\n kintu ushyiramo habe namazi\n";
+    $response .= "Gaburira ummwana ukoreshe akayiko\n";
+    $response .= "99)komeza\n\n";}
+
    
 
 
