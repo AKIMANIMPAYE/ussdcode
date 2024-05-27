@@ -817,7 +817,7 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "-Igitoki\n";
                         $response .= "-Ibihaza\n";
                         $response .= "-Amakaroni y'abana\n";
-                        $response .= "99) Komeza\n"; // Adding a next option for continuation
+                        $response .= "99)Komeza"; // Adding a next option for continuation
                     } 
                     else if ($text == "4*2*1*99") {
                         // First part of response for 2*2*1
@@ -826,19 +826,19 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "-Amasaka\n";
                         $response .= "-Ingano\n";
                         $response .= "-Amamesa\n";
-                        $response .= "-Amavuta y’inka.\n";
+                        $response .= "-Amavuta y’inka\n";
                         $response .= "-Kawunga\n";
-                        $response .= "99) Komeza\n"; // Adding a next option for continuation
+                        $response .= "99)Komeza"; // Adding a next option for continuation
                     } 
                     else if ($text == "4*2*1*99*99") {
                         // Second part of response for 2*2*1
-                        $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
+                        $response = "END Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
                         $response .= "-Imyumbati\n";
                         $response .= "-Amateke\n";
                         $response .= "-Ibigori\n";
                         $response .= "-Umuceri\n";
-                        $response .= "-Ibikoro\n";
-                    } else if ($text == "4*2*2") {
+                        $response .= "-Ibikoro\n";} 
+                    else if ($text == "4*2*2") {
                         // First part of response for 2*2*2
                         $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo)\n\n";
                         $response .= "-Amasaka\n";
@@ -848,10 +848,10 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "-Amashaza\n";
                         $response .= "-Soya\n";
                         $response .= "-Ubunyobwa\n";
-                        $response .= "99) Next\n"; // Adding a next option for continuation
+                        $response .= "99)Komeza\n"; // Adding a next option for continuation
                     } else if ($text == "4*2*2*99") {
                         // Second part of response for 2*2*2
-                        $response = "CON Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo)\n\n";
+                        $response = "END Ibyubaka umubiri(Ibinyameke n'ibikomoka ku matungo)\n\n";
                         $response .= "-Inyama\n";
                         $response .= "-Ibishyimbo\n";
                         $response .= "-Indagara\n";
@@ -875,7 +875,7 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "99) Komeza\n"; // Adding a next option for continuation
                     } else if ($text == "4*2*3*99") {
                         // Second part of response for 2*2*3
-                        $response = "CON Ibirinda indwara(imboga n'imbuto) \n\n";
+                        $response = "CON Ibirinda indwara(imboga n'imbuto)\n\n";
                         $response .= "Isombe\n";
                         $response .= "Amashu\n";
                         $response .= "Ibishayote\n";
@@ -886,7 +886,7 @@ else if ($text == "2*3*3*99*99*99") {
                         $response.=" 99) Komeza";}  
                     else if ($text == "4*2*3*99") {
                         // Second part of response for 2*2*3
-                        $response = "CON Ibirinda indwara(imboga n'imbuto) \n\n";
+                        $response = "CON Ibirinda indwara(imboga n'imbuto)\n\n";
                         $response .="Imineke\n";
                         $response .="shoufrere\n";
                         $response .="Imbongeri\n";
@@ -895,7 +895,7 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .="imbwija\n";
                         $response.=" 99) Komeza";}                    
                     else if ($text == "4*3") {
-                        $response = "CON Tegura indyo yuzuye \n\n";
+                        $response = "CON Tegura indyo yuzuye\n\n";
                         $response .= "1)Mugitondo\n";
                         $response .= "2) saa sita \n";
                         $response .= "3) Igicamunsi \n";
