@@ -919,23 +919,20 @@ else if ($text == "2*3*3*99*99*99") {
                         }
                     
                     else if ($text == "4*3*1*99*99") {
-                            $response = "CON Ifunguro rya 2:Igikoma cy’ifu y’ibigori kirimo amata y’inka \n\n";
-                            $response .= "Koresha Amata y’inka angana na kimwe cya kabiri,\n";
-                            $response.="cy’igikombe cya mironko,\n";
-                            $response .= "shyiramo amazi kimwe cyakabiri kicyo gikombe,\n";
-                            $response.=" Ibiyiko 3 cyangwa 4 by’ifu y’ibigori\n";
+                            $response = "CON Ifunguro rya 2:Igikoma cy’inkamure\n\n";
+                            $response .="Amahundo 4 y’amasaka ataruma,ibiyiko 2 by'isukari\n";
+                            $response.="Amazi ibikombe bine bya mironko,\n";
+                            $response .="manyagura amahundo ujonjoramo ameza n’amabi\n";
+                            $response.=" shyira mu isekuru usekure ubinoza neza\n";
                             $response .= "99)Komeza";
                         }
                     else if ($text == "4*3*1*99*99") {
-                            $response = "CON bivange byose kuburyo ubona \n";
-                            $response .= "icyanga cyabyo cyanoze,\n";
-                            $response.="Canira amazi igikombe kimwe namara kubira\n";
-                            $response.="ongeramo rwa ruvange rw’amata n’ifu\n";
-                            $response.="shigisha kugeza kibize bihagije\n";
-                            $response.="hoza igikoma uhe umwana,\n";
-                            $response.=" Gaburira nubona nashaka kwigaburira mureke abyige\n";
-                            $response .= "99)Komeza";
-                        }
+                            $response ="CON shyira iyo nombe mu isafuriya yateguwe\n";
+                            $response .="sukamo amazi ibikombe 4 byamironko\n";
+                            $response.="vanga ukamura kugira ngo uvanemo ibikatsi\n";
+                            $response.="uyungurura,shyira kuziko ucanire\n";
+                            $response.="shigisha kugeza gihinduye ibara,gushyiramo isukari.\n";
+                            $response .= "99)Komeza";}
                     else if ($text == "4*3*1*99*99") {
                             $response = "CON Ifunguro rya 3: Igikoma cy’ifu y’ibigori kirimo amata y’inka \n\n";
                             $response .= "koresha amata yinka igikombe kimwe \n";
