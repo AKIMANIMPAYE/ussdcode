@@ -817,12 +817,22 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "-Igitoki\n";
                         $response .= "-Ibihaza\n";
                         $response .= "-Amakaroni y'abana\n";
-                        $response .= "-Ibijumba\n";
                         $response .= "99) Komeza\n"; // Adding a next option for continuation
-                    } else if ($text == "4*2*1*99") {
+                    } 
+                    else if ($text == "4*2*1*99") {
+                        // First part of response for 2*2*1
+                        $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
+                        $response .= "-Ibijumba\n";
+                        $response .= "-Amasaka\n";
+                        $response .= "-Ingano\n";
+                        $response .= "-Amamesa\n";
+                        $response .= "-Amavuta y’inka.\n";
+                        $response .= "-Kawunga\n";
+                        $response .= "99) Komeza\n"; // Adding a next option for continuation
+                    } 
+                    else if ($text == "4*2*1*99*99") {
                         // Second part of response for 2*2*1
                         $response = "CON Ibiribwa bitera imbaraga(ibinyamafufu)\n\n";
-                        $response .= "-Kawunga\n";
                         $response .= "-Imyumbati\n";
                         $response .= "-Amateke\n";
                         $response .= "-Ibigori\n";
@@ -847,7 +857,7 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "-Indagara\n";
                         $response .= "-Amata\n";
                         $response .= "-Uburo\n";
-                        $response .= "-Uvuta y'inka\n";
+                        $response .= "-Uvuta y'inka";
                         
                     } else if ($text == "4*2*3") {
                         // First part of response for 2*2*3
@@ -866,24 +876,30 @@ else if ($text == "2*3*3*99*99*99") {
                     } else if ($text == "4*2*3*99") {
                         // Second part of response for 2*2*3
                         $response = "CON Ibirinda indwara(imboga n'imbuto) \n\n";
-                        $response .= "-Isombe\n";
-                        $response .= "-Amashu\n";
-                        $response .= "-Ibishayote\n";
-                        $response .= "-Karote\n";
-                        $response .= "-Imiteja\n";
-                        $response .= "-Ibisusa\n";
-                        $response .= "-Avoka\n";
-                        $response .= "-Imineke\n";
-                        $response .= "-shoufrere\n";
-                    }               
-                                      
+                        $response .= "Isombe\n";
+                        $response .= "Amashu\n";
+                        $response .= "Ibishayote\n";
+                        $response .= "Karote\n";
+                        $response .= "Imiteja\n";
+                        $response .= "Ibisusa\n";
+                        $response .= "Avoka\n";
+                        $response.=" 99) Komeza";}  
+                    else if ($text == "4*2*3*99") {
+                        // Second part of response for 2*2*3
+                        $response = "CON Ibirinda indwara(imboga n'imbuto) \n\n";
+                        $response .="Imineke\n";
+                        $response .="shoufrere\n";
+                        $response .="Imbongeri\n";
+                        $response .="isogi\n";
+                        $response .="igisura\n";
+                        $response .="imbwija\n";
+                        $response.=" 99) Komeza";}                    
                     else if ($text == "4*3") {
                         $response = "CON Tegura indyo yuzuye \n\n";
                         $response .= "1)Mugitondo\n";
                         $response .= "2) saa sita \n";
                         $response .= "3) Igicamunsi \n";
-                        $response .= "4) Nimugoroba\n";
-                    }
+                        $response .= "4) Nimugoroba\n";}
                     else if ($text == "4*3*1") {
                          $response = "CON Ifunguro rya 1: Porichi n'amata\n\n";
                         $response .= " Amata y’inka angana \n";
