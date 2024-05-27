@@ -932,6 +932,7 @@ else if ($text == "2*3*3*99*99*99") {
                             $response.="vanga ukamura kugira ngo uvanemo ibikatsi\n";
                             $response.="uyungurura,shyira kuziko ucanire\n";
                             $response.="shigisha kugeza gihinduye ibara,gushyiramo isukari.\n";
+                            $response.="nikimara kubira tegereza iminota 3 ugikureho\n";
                             $response .= "99)Komeza";}
                     else if ($text == "4*3*1*99*99") {
                             $response = "CON Ifunguro rya 3: Igikoma cy’ifu y’ibigori kirimo amata y’inka \n\n";
@@ -946,18 +947,16 @@ else if ($text == "2*3*3*99*99*99") {
                             $response .= "99)Komeza";
                         }
                      else if ($text == "4*3*1*99*99*99") {
-                            $response = "CON Ifunguro rya 3:Igikoma cy’uruvange rw’amafu (SOSOMA)\n\n";
-                            $response .="Ibikenewe mu gutegura ibikombe bibiri bya mironko:\n";
-                            $response.="Ifu y’ibigori ibiyiko 3\n";
-                            $response .= "Ifu y’amasaka ibiyiko 3\n";
+                            $response = "CON Ifunguro rya 3:Igikoma cya SOSOMA)\n";
+                            $response.=" fata Ifu y’ibigori ibiyiko 3,\n";
+                            $response .= "Ifu y’amasaka ibiyiko 3,\n";
                             $response.="Ifu ya soya ikiyiko 1,\n ";
                             $response.="99)Komeza ";}
                     else if($text == "4*3*1*99*99*99*99"){
-                            $response.=" CON vanga ya mafu yose,fata amazi angana na kimwe,\n";
-                            $response.=" cya kabiri cy’igikombe cya mironko ku\n";
-                            $response.="uvangisha ya fu ku buryo inoga neza\n";
+                            $response.=" CON sukamo amazi kimwe cyakabiri cy'igikombe\n";
+                            $response.="vangisha ya fu ku buryo inoga neza.\n";
                             $response.="Teka amazi igikombe kimwe\n";
-                            $response.=" namara kubira sukamo rwa ruvange,\n";
+                            $response.="amazi namara kubira sukamo icyanga cyamafu,\n";
                             $response.="shigisha kugeza kibize bihagije\n";
                             $response.="99)Komeza ";}
                      else if ($text == "4*3*1*99*99*99*99") {
@@ -1008,7 +1007,30 @@ else if ($text == "2*3*3*99*99*99") {
                         $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
                         $response .= "99)Komeza\n"; 
                     }
+
+
                     else if ($text == "4*3*2*99*99*99*99") {
+                        //inombe 
+                        $response = "CON Ifunguro rya 2:  Inombe y’ibirayi n’ubunyobwa\n\n";
+                        $response .= " Koresha ibirayi 3 biri mu rugero,\n";
+                        $response .= "Umufungo w’imboga rwatsi,\n";
+                        $response .= " Ikiyiko cy’amavuta,Igitunguru,Inyanya eshatu, \n";
+                        $response .= "ibiyiko bibiri byindagara ziseye\n";
+                        $response .= "99)Komeza\n";
+                    }
+                    else if ($text == "4*3*2*99*99*99*99*99") {
+                        $response = "CON bitegure nurangiza ubikarange,\n";
+                        $response .= "bikiri bibisi ushyiremo amazi ibikombe \n";
+                        $response .= "bibiri ucanire bishye \n";
+                        $response .= "nombera umwana gusa utabinoza cyane\n";
+                        $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
+                        $response .= "99)Komeza\n"; 
+                    }
+
+
+
+
+                    else if ($text == "4*3*2*99*99*99*99*99*99") {
                         $response = "CON Ifunguro rya 4:Imvange yibitoki n'imboga\n\n";
                         $response .= "igitoki\n";
                         $response .= "Karote\n";
