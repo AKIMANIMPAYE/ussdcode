@@ -1195,7 +1195,7 @@ else if ($text == "2*3*3*99*99*99") {
                                         $response .= "99)komeza\n";}
                                     else if ($text == "5") {
                                         // Business logic for first level response
-                                        $response = "END  umwana umaze kuzuza imyaka ibiri abampaze kumenya kurya yarameze amemye\n guhera kumyaka ibiri umwana atangira kurya ibiryo nkibyo abandi bo murugo baryaho gusa ukomeza ku mugaburira.";
+                                        $response = "END  umwana umaze kuzuza imyaka ibiri abampaze kumenya kurya yarameze amenyo\n guhera kumyaka ibiri Umwana ufite imyaka ibiri abageze kurwego rwo gufata amafunguro nkayabantu bakuru murugo";
                                     } 
 
 
