@@ -1014,16 +1014,17 @@ else if ($text == "2*3*3*99*99*99") {
                         $response = "CON Ifunguro rya 2:  Inombe y’ibirayi n’ubunyobwa\n\n";
                         $response .= " Koresha ibirayi 3 biri mu rugero,\n";
                         $response .= "Umufungo w’imboga rwatsi,\n";
-                        $response .= " Ikiyiko cy’amavuta,Igitunguru,Inyanya eshatu, \n";
-                        $response .= "ibiyiko bibiri byindagara ziseye\n";
+                        $response .= "Karoti,umufungo w’injanga, \n";
+                        $response .= "Ibiyiko 2 by’ifu y’ubunyobwa bukaranze\n";
+                        $response .= "Inyanya 3 cg 5 n'igitunguru\n";
                         $response .= "99)Komeza\n";
                     }
                     else if ($text == "4*3*2*99*99*99*99*99") {
-                        $response = "CON bitegure nurangiza ubikarange,\n";
-                        $response .= "bikiri bibisi ushyiremo amazi ibikombe \n";
-                        $response .= "bibiri ucanire bishye \n";
-                        $response .= "nombera umwana gusa utabinoza cyane\n";
-                        $response .= "Ibiryo byumwana bigomba kuba\n binobye binoze kandi bifashe bihagije\n";
+                        $response = "CON hata ibirayi,bishyire mu mazi ucanire,\n";
+                        $response .= "ronga imboga rwatsi, karoti ibitunguru,\n";
+                        $response .= "ninyanya bishyire mubirayi byenda gushya \n";
+                        $response .= "shyiramo ubunyobwa buseye ibiyiko bibiri\n";
+                        $response .= "bipfundikiye kugeza bihiye neza nyuma ubinomba\n";
                         $response .= "99)Komeza\n"; 
                     }
 
