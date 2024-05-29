@@ -1193,10 +1193,26 @@ else if ($text == "2*3*3*99*99*99") {
                                         $response .= "urishyiremo ritonoye cishamo akuko ubireke bishye neza\n"; 
                                         $response .= "bimpaze gushya nomba neza ibiryo binoge ugaburire umwana\n"; 
                                         $response .= "99)komeza\n";}
-                                    else if ($text == "5") {
+
+                                        else if ($text == "5") {
+                                            // Business logic for first level response
+                                            // This is a terminal request. Note how we start the response with END
+                                            $response = "CON Imirire \n\n";
+                                            $response .= "1) Abwiriza  \n";
+                                            $response .= "2) Ibiribwa\n";
+                                            $response .= "3) Amafunguro\n";
+                                        } 
+                                    else if ($text =="5*1") {
                                         // Business logic for first level response
-                                        $response = "CON umwana umaze kuzuza imyaka ibiri abampaze kumenya kurya yarameze amenyo\n guhera kumyaka ibiri Umwana ufite imyaka ibiri abageze kurwego rwo gufata amafunguro nkayabantu bakuru murugo";
-                                    } 
+                                        $response ="CON umwana umaze kuzuza imyaka ibiri abampaze 
+                                        kumenya kurya yarameze amenyo.\n Umwana 
+                                        ufite imyaka ibiri abageze kurwego rwo gufata amafunguro 
+                                        nkayabantu bakuru murugo";} 
+                                    else if ($text =="5*1*99") {
+                                        // Business logic for first level response
+                                        $response ="END Gaburira umwana ibiryo nkibyo abandi barya murugo.\n";
+                                        $response="Gaburira umwana amafunguro ishuro eshatu cg enye\n";
+                                        $response=" Hagarika konsa umwana akigera ku myaka ibiri";} 
 
 
 
