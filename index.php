@@ -24,6 +24,7 @@ if ($text == "") {
     $response .= "1) Abwiriza  \n";
     $response .= "2) Ibiribwa\n";
     $response .= "3) Amafunguro\n";
+    |$response.= "4) Inyuma\n";
 } else if ($text == "2*1") {
     // This is a second level response where the user selected 1 in the first instance
     $response = "CON Umwana niyuzuza amezi 6,\n ";
@@ -32,6 +33,17 @@ if ($text == "") {
     $response .= "99)Komeza \n";
    
 }
+else if ($text == "2*4") {
+    // This is a second level response where the user selected 1 in the first instance
+    $response  = "CON Turwanye imirire mibi mubana\n\n";
+    $response .= "1) Amezi 6 yambere\n";
+    $response .= "2) Amezi 6 kugeza kumezi 9\n";
+    $response .= "3) Amezi 9 kugeza ku mwaka \n";
+    $response .= "4) Umwaka kugeza ku myaka 2 \n";
+    $response .= "5) Imyaka 2 kugeza ku myaka 5 \n";
+   
+}
+
 else if ($text == "2*1*99") {
     // This is a second level response where the user selected 1 in the first instance
     $response="CON tangira umuhe ubundi bwoko bw’ibiryo.\n";
