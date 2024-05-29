@@ -1202,13 +1202,13 @@ else if ($text == "2*3*3*99*99*99") {
                                             $response .= "2) Ibiribwa\n";
                                             $response .= "3) Amafunguro\n";
                                         } 
-                                    else if ($text =="5*1") {
+                                    else if($text =="5*1") {
                                         // Business logic for first level response
                                         $response ="CON umwana umaze kuzuza imyaka ibiri abampaze 
                                         kumenya kurya yarameze amenyo.\n Umwana 
                                         ufite imyaka ibiri abageze kurwego rwo gufata amafunguro 
                                         nkayabantu bakuru murugo\n";
-                                        $response ="99)Komeza";}
+                                        $response .="99)Komeza";}
                                         
                                     else if ($text =="5*1*99") {
                                         // Business logic for first level response
