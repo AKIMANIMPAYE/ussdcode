@@ -49,9 +49,9 @@ else if ($text == "2*1*99*99") {
     $response .= "Bimutwara tangira kujya uvanga ibiribwa kugirango indyo  \n";
     $response .= "yuzuye iboneke igizwe(ibyubaka umubiri,ibitera imbaraga ni \n";
     $response .= "ibirinda indwara) \n";
-    $response .= "0. Garuka\n";
+    $response .= "0) Garuka\n";
 }
-else if ($text == "2*0" || $text == "2*1*0" || $text == "2*1*99*0" || $text == "2*1*99*99*0" ||){
+else if ($text == "2*0" || $text == "2*1*0" || $text == "2*1*99*0" || $text == "2*1*99*99*0"){
     $response  = "CON Turwanye imirire mibi mubana\n\n";
     $response .= "1) Amezi 6 yambere\n";
     $response .= "2) Amezi 6 kugeza kumezi 9\n";
