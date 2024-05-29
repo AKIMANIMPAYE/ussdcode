@@ -24,7 +24,7 @@ if ($text == "") {
     $response .= "1) Abwiriza  \n";
     $response .= "2) Ibiribwa\n";
     $response .= "3) Amafunguro\n";
-    |$response.= "4) Inyuma\n";
+    $response.= "4) Inyuma\n";
 } else if ($text == "2*1") {
     // This is a second level response where the user selected 1 in the first instance
     $response = "CON Umwana niyuzuza amezi 6,\n ";
