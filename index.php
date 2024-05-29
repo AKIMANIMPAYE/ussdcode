@@ -51,15 +51,7 @@ else if ($text == "2*1*99*99") {
     $response .= "ibirinda indwara) \n";
     $response .= "0) Garuka\n";
 }
-else if ($text == "2*0" || $text == "2*1*0" || $text == "2*1*99*0" || $text == "2*1*99*99*0"){
-    $response  = "CON Turwanye imirire mibi mubana\n\n";
-    $response .= "1) Amezi 6 yambere\n";
-    $response .= "2) Amezi 6 kugeza kumezi 9\n";
-    $response .= "3) Amezi 9 kugeza ku mwaka \n";
-    $response .= "4) Umwaka kugeza ku myaka 2 \n";
-    $response .= "5) Imyaka 2 kugeza ku myaka 5 \n";
 
-} 
 
 else if ($text == "2*2") {
     // This is a second level response where the user selected 2 in the first instance
@@ -104,8 +96,7 @@ else if ($text == "2*2") {
     $response .= "-Indagara\n";
     $response .= "-Amata\n";
     $response .= "-Uburo\n";
-    $response .= "-Uvuta y'inka\n";
-    
+    $response .= "-Uvuta y'inka\n";   
 } else if ($text == "2*2*3") {
     // First part of response for 2*2*3
     $response = "CON Ibirinda indwara(imboga n'imbuto)\n";
