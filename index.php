@@ -1209,6 +1209,16 @@ else if ($text == "2*3*3*99*99*99") {
                                         // Business logic for first level response
                                         $response = "CON umwana umaze kuzuza imyaka ibiri abampaze kumenya kurya yarameze amenyo\n guhera kumyaka ibiri Umwana ufite imyaka ibiri abageze kurwego rwo gufata amafunguro nkayabantu bakuru murugo";
                                     } 
+                                    else if ($text == "2*4") {
+                                        // This is a second level response where the user selected 1 in the first instance
+                                        $response  = "CON Turwanye imirire mibi mubana\n\n";
+                                        $response .= "1) Amezi 6 yambere\n";
+                                        $response .= "2) Amezi 6 kugeza kumezi 9\n";
+                                        $response .= "3) Amezi 9 kugeza ku mwaka \n";
+                                        $response .= "4) Umwaka kugeza ku myaka 2 \n";
+                                        $response .= "5) Imyaka 2 kugeza ku myaka 5 \n";
+                                       
+                                    }
 
 
 
