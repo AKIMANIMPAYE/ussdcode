@@ -60,7 +60,6 @@ else if ($text == "2*0" || $text == "2*1*0" || $text == "2*1*99*0" || $text == "
    $response .= "3) Amezi 9 kugeza ku mwaka \n";
    $response .= "4) Umwaka kugeza ku myaka 2 \n";
    $response .= "5) Imyaka 2 kugeza ku myaka 5 \n";
-
                    }
 else if ($text == "2*2") {
     // This is a second level response where the user selected 2 in the first instance
@@ -1264,10 +1263,10 @@ else if ($text == "2*3*3*99*99*99") {
                                         } 
                                     else if($text =="5*1") {
                                         // Business logic for first level response
-                                        $response ="CON umwana umaze kuzuza imyaka ibiri abampaze 
-                                        kumenya kurya yarameze amenyo.\n Umwana 
-                                        ufite imyaka ibiri abageze kurwego rwo gufata amafunguro 
-                                        nkayabantu bakuru murugo\n";
+                                        $response .="CON umwana umaze kuzuza imyaka ibiri abampaze"; 
+                                        $response. ="kumenya kurya yarameze amenyo Umwana\n" 
+                                        $response.="ufite imyaka ibiri abageze kurwego rwo gufata amafunguro";
+                                        $response .= "nkayabantu bakuru murugo\n";
                                         $response .="99)Komeza";}
                                         
                                     else if ($text =="5*1*99") {
